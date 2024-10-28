@@ -1,0 +1,333 @@
+body{
+    
+}
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+#a1{
+    text-decoration: none;
+    color: azure;
+}
+.navbar {
+    height: 100px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 85px;
+    width:100px;
+
+}
+
+.logo {
+    background-image: url(BUYERR.jpg);
+    
+    border-radius: 50%;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+}
+
+.border {
+    border : 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 2.5px solid rgb(161, 245, 34);
+}
+
+.evergreen {
+    height: 40px;
+    width: 180px;
+    background-color: rgb(156, 212, 100);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.topic {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.service {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.login {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.signin {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.heroimage {
+    padding-top: 300px;
+    padding-left: 20px;
+    height: 600px;
+    width: auto;
+    background-size: cover;
+   
+}
+
+#word {
+   margin-top: -150px;
+   margin-right: 1010px;
+   width: 990px;
+   background-color: transparent;
+   font-size: 60px;
+   color:   rgb(66, 33, 33);
+   font-weight: 900;
+   
+}
+#word1 {
+    margin-top: -160px;
+    margin-left: 1250px;
+    width: 990px;
+    background-color: transparent;
+    font-size: 60px;
+    color:   rgb(66, 33, 33);
+    font-weight: 900;
+    
+ }
+
+.info {
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: -200px;
+    margin-left: -20px;
+    background-color: wheat;
+}
+
+.element {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(66, 33, 33);
+    margin-top: 50px;
+}
+.element1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(66, 33, 33);
+    margin-top: 50px;
+}
+.element:hover {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    scale: 1.05;
+    transition: 1s;
+    color: rgb(66, 33, 33);
+    margin-top: 550px;
+}
+.element1:hover {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    scale: 1.05;
+    transition: 1s;
+    color: rgb(66, 33, 33);
+    margin-top: 50px;
+}
+.highlight {
+    height: 150px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.box1 {
+    
+    border: 1px solid black;
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box2 {
+    border: 1px solid black;
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.box3 {
+    border: 1px solid black;
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.shop:hover{
+    box-shadow: 4px 4px 5px black;
+    transition: 0.7s;
+    scale: 1.08;
+}
+.shop1{
+    color: azure;
+    width: 120px;
+    border-radius: 5px;
+    height: 25px;
+    background-color: #1d1d1d;
+    text-shadow: 2px 2px 4px azure;
+    transition: 0.7s;
+    scale: 1.08;
+    align-items: center;
+    margin-left: 1350px;
+    margin-top: -150px;
+    padding: 10px 0px 8px 14px;
+}
+.shop1:hover{
+    box-shadow: 4px 4px 5px black;
+    transition: 0.7s;
+    scale: 1.08;
+}
+.sm{
+    margin-left: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+}
+.sm:hover{
+    background-color: lime;
+    color: azure;
+    scale: 1.2;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+.sm1{
+    margin-left: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+    float: left;
+}
+.sm2{
+    margin-left: 1000px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin-top: -35px;
+    float: left;
+}
+.sm1:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+.sm2:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+#div5{
+    margin: 0% 0% 0% 17%;
+}
+.quote{
+    margin-left: 410px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.spicy{
+
+    width: 800px;
+    height: 300px;
+    background-color:sandybrown;
+    color: cyan;
+    border: 2px dotted blue;
+    margin-left: 1000px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 45px;
+    margin-top: -200px;
+    box-shadow: 4px 4px 6px 5px black;
+    border-radius: 20px;
+}
+.IM{
+    width: 200px;
+    margin-left: 90px;
+    height:250px;
+    border:4px solid black;
+    box-shadow: 3px 3px 4px black;
+}
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fotter {
+    height: 320px;
+    background-color: rgb(207, 230, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.fot11 {
+    height: 300px;
+    font-size: 15px;
+}
+
+.fot12 {
+    height: 300px;
+    font-size: 15px;
+    
+}
+
+.fot13 {
+    height: 300px;
+    font-size: 15px;
+    
+}
+
+.copy {
+    height: 30px;
+    background-color: rgb(207, 230, 249) ;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+}

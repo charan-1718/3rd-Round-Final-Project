@@ -1,0 +1,717 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 33, 33);
+}
+.navbar {
+    height: 100px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 85px;
+    width:100px;
+
+}
+
+.logo {
+    background-image: url(farmer123.webp);
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 100%;
+}
+
+.border {
+    border : 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 2.5px solid rgb(161, 245, 34);
+}
+
+.evergreen {
+    height: 40px;
+    width: 180px;
+    background-color: rgb(156, 212, 100);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.topic {
+    padding: 5px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.service {
+    padding: 5px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.login {
+    padding: 5px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.signin {
+    padding: 5px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.people {
+    padding: 5px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.heroimage {
+    padding-top: 300px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    height: 600px;
+    width: auto;
+    background-image: url(farmer.jpg);
+    background-size: cover;
+   
+}
+
+.word {
+   height: 800px;
+   width: 600px;
+   background-color: transparent;
+   font-size: 60px;
+   color:   #FEEE91;
+   font-weight: 900;
+}
+
+.info {
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: -200px;
+    margin-left: -20px;
+    background-color: wheat;
+}
+
+.element {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(66, 33, 33);
+}
+
+.highlight {
+    height: 150px;
+    background-color: wheat ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+.box1 {
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box2 {
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.box3 {
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+   background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.shop:hover{
+    box-shadow: 4px 4px 5px black;
+    transition: 0.7s;
+    scale: 1.08;
+}
+.sm{
+    margin-left: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+}
+.sm:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+.sm1{
+    margin-left: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+    float: left;
+}
+.sm2{
+    margin-left: 1000px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin-top: -35px;
+    float: left;
+}
+.sm1:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+.sm2:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+
+.fruitbox {
+    background-color: aliceblue;
+}
+
+.foodbox2 {
+    background-color: aliceblue;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foodbox21 {
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+.foodbox22 {
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+
+}
+
+.foodbox23 {
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+
+}
+
+.foodbox211 {
+    height: 400px;
+    background-color: rgb(155, 231, 155);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.foodbox222 {
+    height: 400px;
+    background-color: rgb(155, 231, 155);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.foodbox233 {
+    height: 400px;
+    background-color:  rgb(155, 231, 155);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.namebox1 {
+    padding-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 33, 33);
+    
+}
+
+.namebox2 {
+    padding-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 33, 33);
+    
+}
+
+.namebox3 {
+    padding-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 33, 33);
+    
+    
+}
+
+.circle1 {
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -40px;
+    float: left;
+    background-image:url("farmer11.webp");
+    background-size: cover;
+}
+
+.circle2 {
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -40px;
+    float: left;
+    background-image:url("farmer123.webp");
+    background-size: cover;
+}
+
+.circle3 {
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -40px;
+    float: left;
+    background-image:url("farmer111.avif");
+    background-size: cover;
+}
+
+.square1 {
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url("wheat.webp");
+    background-size: cover;
+}
+
+.square2 {
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url("dal2.jpg");
+}
+
+.square3 {
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url("1millet.webp");
+    background-size: cover;
+}
+
+.h1 {
+    padding-top: 6px;
+    height: 40px;
+    background-color: aliceblue;
+    background-color: aliceblue ;
+    margin-top: 110px;
+    margin-left: -50px;
+    text-align: center;
+    color: rgb(66, 33, 33);
+}
+
+.h2 {
+    padding-top: 5px;
+    height: 40px;
+    background-color: aliceblue;
+    margin-top: 110px;
+    margin-left: -50px;
+    color: rgb(66, 33, 33);
+    text-align: center;
+}
+
+.h3 {
+    padding-top: 5px;
+    height: 40px;
+    background-color: aliceblue;
+    background-color: aliceblue;
+    margin-top: 110px;
+    margin-left: -50px;
+    color: rgb(66, 33, 33);
+    text-align: center;
+}
+
+.low1 {
+    background-color: white;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -50px;
+    border-radius: 25px;
+    color:  blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    border: 3px solid rgb(145, 198, 145);
+    font-weight: 700;
+}
+
+.low2 {
+    background-color: white;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -50px;
+    border-radius: 25px;
+    color:  blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    border: 3px solid rgb(145, 198, 145);
+    font-weight: 700;
+}
+
+.low3 {
+    background-color: white;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -50px;
+    border-radius: 25px;
+    color:  blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    border: 3px solid rgb(145, 198, 145);
+    font-weight: 700;
+}
+
+.blo {
+    color: blue;
+}
+
+/* same */
+.foodbox3 {
+    background-color: aliceblue;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foodbox31 {
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+.foodbox32 {
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+
+}
+
+.foodbox33 {
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+
+}
+
+.foodbox311 {
+    height: 400px;
+    background-color: rgb(155, 231, 155);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.foodbox322 {
+    height: 400px;
+    background-color: rgb(155, 231, 155);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.foodbox333 {
+    height: 400px;
+    background-color:  rgb(155, 231, 155);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.namebox11 {
+    padding-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 33, 33);
+    
+}
+
+.namebox21 {
+    padding-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 33, 33);
+    
+}
+
+.namebox31 {
+    padding-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 33, 33);
+    
+    
+}
+
+.circle11 {
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -40px;
+    float: left;
+    background-image:url("farmerprofile2.avif");
+    background-size: cover;
+}
+
+.circle21 {
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -40px;
+    float: left;
+    background-image:url("farmerprofile3.webp");
+    background-size: cover;
+}
+
+.circle31 {
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -40px;
+    float: left;
+    background-image:url("lady\ farmer\ profile\ picture.png");
+    background-size: cover;
+}
+
+.square11 {
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url("makka.webp");
+    background-size: cover;
+}
+
+.square21 {
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url("dal.jpg");
+    background-size: cover;
+}
+
+.square31 {
+    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url("sarso.webp");
+    background-size: cover;
+}
+
+.h11 {
+    padding-top: 6px;
+    height: 40px;
+    background-color: aliceblue;
+    background-color: aliceblue ;
+    margin-top: 110px;
+    margin-left: -50px;
+    text-align: center;
+    color: rgb(66, 33, 33);
+}
+
+.h21 {
+    padding-top: 5px;
+    height: 40px;
+    background-color: aliceblue;
+    margin-top: 110px;
+    margin-left: -50px;
+    color: rgb(66, 33, 33);
+    text-align: center;
+}
+
+.h31 {
+    padding-top: 5px;
+    height: 40px;
+    background-color: aliceblue;
+    background-color: aliceblue;
+    margin-top: 110px;
+    margin-left: -50px;
+    color: rgb(66, 33, 33);
+    text-align: center;
+}
+
+.low11 {
+    background-color: white;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -50px;
+    border-radius: 25px;
+    color:  blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    border: 3px solid rgb(145, 198, 145);
+    font-weight: 700;
+}
+
+.low21 {
+    background-color: white;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -50px;
+    border-radius: 25px;
+    color:  blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    border: 3px solid rgb(145, 198, 145);
+    font-weight: 700;
+}
+
+.low31 {
+    background-color: white;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -50px;
+    border-radius: 25px;
+    color:  blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    border: 3px solid rgb(145, 198, 145);
+    font-weight: 700;
+}
+
+.blo1 {
+    color: blue;
+}
+
+.fotter {
+    height: 320px;
+    background-color: rgb(207, 230, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.fot11 {
+    height: 300px;
+    font-size: 15px;
+}
+
+.fot12 {
+    height: 300px;
+    font-size: 15px;
+    
+}
+
+.fot13 {
+    height: 300px;
+    font-size: 15px;
+    
+}
+
+.copy {
+    height: 30px;
+    background-color: rgb(207, 230, 249) ;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+}

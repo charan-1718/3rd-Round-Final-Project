@@ -1,0 +1,19 @@
+body{
+    background-image:url(send\ feedback.png) ;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color:rgb(125, 255, 177);
+    background-position: center;
+}
+button{
+    background-color:rgb(125, 255, 177);
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 750px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
